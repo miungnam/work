@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Twitter -->
+    <meta name="twitter:site" content="@themepixels">
+    <meta name="twitter:creator" content="@themepixels">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Azia">
+    <meta name="twitter:description" content="Responsive Bootstrap 4 Dashboard Template">
+    <meta name="twitter:image" content="http://themepixels.me/azia/img/azia-social.png">
+
+    <!-- Facebook -->
+    <meta property="og:url" content="http://themepixels.me/azia">
+    <meta property="og:title" content="Azia">
+    <meta property="og:description" content="Responsive Bootstrap 4 Dashboard Template">
+
+    <meta property="og:image" content="http://themepixels.me/azia/img/azia-social.png">
+    <meta property="og:image:secure_url" content="http://themepixels.me/azia/img/azia-social.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="600">
+
+    <!-- Meta -->
+    <meta name="description" content="Responsive Bootstrap 4 Dashboard Template">
+    <meta name="author" content="ThemePixels">
+
+    <title>Azia starter </title>
+
+    <!-- vendor css -->
+    <link href="./template/lib/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="./template/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="./template/lib/typicons.font/typicons.css" rel="stylesheet">
+    <link href="./template/lib/morris.js/morris.css" rel="stylesheet">
+    <link href="./template/lib/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+    <link href="./template/lib/jqvmap/jqvmap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./template/css/azia.css">
+    <link rel="stylesheet" href="template/css/media.css">
+    <!-- azia CSS -->
+
+
+</head>
+<body>
+<div class="az-header bd bd-2 bd-t-0 rounded pd-50">
+    <div class="container">
+        <div class="az-header-left">
+            <a href="index.html" class="az-logo"><span></span> Logo</a>
+            <a href="" id="azMenuShow" class="az-header-menu-icon d-lg-none"><span></span></a>
+        </div><!-- az-header-left -->
+        <div class="az-header-menu">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link tx-black "><i class="typcn tx-lg-24 typcn-edit"></i> Штрафы</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link tx-black "><i class="icon tx-lg-24 ion-md-paper"></i> Контакты</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link tx-black "><i class="typcn tx-lg-24 typcn-document"></i> Оплатить </a>
+                </li>
+                <li class="nav-item active show">
+                    <a href="" class="nav-link tx-black "><i class="typcn tx-lg-24 typcn-book"></i> Сервисы </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link tx-black "><i class="typcn tx-lg-24 typcn-tabs-outline"></i> Новости</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="az-header-right">
+            <input type="text" class="form-control mr-sm-2" placeholder="Поиск" aria-label="Поиск">
+            <a href="" class="az-header-search-link"><i class="fas fa-search"></i></a>
+            <div class="az-header-message">
+                <a href="#"><i class="typcn typcn-messages"></i></a>
+            </div><!-- az-header-message -->
+            <div class="dropdown az-header-notification">
+                <a href="" class="new"><i class="typcn typcn-bell"></i></a>
+                <div class="dropdown-menu">
+                    <div class="az-dropdown-header mg-b-20 d-sm-none">
+                        <a href="" class="az-header-arrow"><i class="icon ion-md-arrow-back"></i></a>
+                    </div>
+                    <h6 class="az-notification-title">Уведомления</h6>
+                    <p class="az-notification-text">Проверяйте ваши штрафы онлайн</p>
+                </div><!-- dropdown-menu -->
+            </div><!-- az-header-notification -->
+
+        </div>
+    </div>
+
+</div>
+<div class="container pt-5">
+    <div class="row">
+        <div class="col-6">
+ <div class="az-content-body ml-3">
+    <div class="az-content-breadcrumb  mb-3 tx-spacing-3">
+        <span>Штрафы</span>
+        <span>Проверка штрафов ГИБДД </span>
+    </div>
+    <h1 class="az-content-title">Проверка штрафов ГИБДД
+    </h1>
+
+    <div class="az-content-label mg-b-5">Проверка и оплата штрафов за нарушения правил дорожного движения</div>
+
+    <form action="#" data-parsley-validate>
+        <div class="wd-sm-300">
+            <div class="d-md-flex mg-b-20">
+                <div class="form-group mg-b-0">
+                    <label class="form-label">
+                        ВВедите номер ИИН: <span class="tx-danger">*</span></label>
+                    <input type="text" name="firstname" class="bd rounded-5 form-control wd-250" placeholder="Введите регистрационный знак" required>
+                </div><!-- form-group -->
+
+                <div class="form-group mg-b-0 mg-md-l-20 mg-t-20 mg-md-t-0">
+                    <label class="form-label">Введите номер телефона: <span class="tx-danger">*</span></label>
+                    <input type="text" name="lastname" class="bd rounded-5 form-control wd-250" placeholder="ВВедите номер телефона" required>
+                </div><!-- form-group -->
+            </div><!-- d-flex -->
+            <button type="submit" class="btn btn-az-primary pd-x-20">Запросить проверку</button>
+        </div>
+    </form>
+ </div>
+</div>
+        <div class="col-6">
+            <div class="row">
+                <div class="col-2">
+                    <img src="https://www.pdd24.kz/img/pdd_strelka.png" alt="border">
+                </div>
+                <div class="col-6">
+            <div class="container  pb-20  m-3">
+                <h2>Информация</h2>
+                <p>При оплате с карты <b>коммиссия — 2%</b>.
+
+                    Проверка штрафа на нашем сайте является услугой информационного характера.
+                    По поводу законности начисления, количества и размеров штрафов, а также по прочим вопросам просьба обращаться в органы дорожной полиции.
+                </p>
+            </div>
+                </div>
+            </div>
+        </div>
+</div>
+</div>
+
+<div class="container-fluid mt-5 p-4 bg-gray-300 d-flex align-content-center justify-content-center">
+    .
+    <h1> <b> Теперь оплата штрафов стала еще быстрее и удобнее! </b> </h1>
+</div>
+
+<div class="container-fluid mt-5 d-flex justify-content-around">
+    <div class="row">
+        <div class="col-4">
+            <img src="https://www.pdd24.kz/img/banner2_1.png" alt="responsible image">
+        </div>
+        <div class="col-4">
+            <img src="https://www.pdd24.kz/img/banner2_2.png" alt="responsible image">
+        </div>
+        <div class="col-4">
+            <img src="https://www.pdd24.kz/img/banner2_3.png" alt="responsible image">
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container-fluid mt-4  p-5 bg-gray-200">
+          <div class="row">
+              <div class="col-4">
+                  <h2>ПДД</h2>
+                  <img src="https://www.pdd24.kz/img/s1.png" alt="resposible image">
+                  <img src="https://www.pdd24.kz/img/s2.png" alt="responsible image">
+                  <p>© Все права защищены</p>
+              </div>
+              <div class="col-4">
+                  <h2>Позвоните нам:</h2>
+                  <h4>+996555444333 </h4>
+                  <h3> Напишите нам: </h3>
+                  <h4> Csoft@gmail.com</h4>
+              </div>
+              <div class="col-4 ">
+                    <h2> Вся информация <br> Находится под руководством <br> ГИБДД КР </h2>
+              </div>
+          </div>
+    </div>
+</footer>
+
+
+
+
+
+<script src="./template/lib/jquery/jquery.min.js"></script>
+<script src="./template/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="./template/lib/ionicons/ionicons.js"></script>
+<script src="./template/lib/jquery-sparkline/jquery.sparkline.min.js"></script>
+<script src="./template/lib/raphael/raphael.min.js"></script>
+<script src="./template/lib/morris.js/morris.min.js"></script>
+<script src="./template/lib/jqvmap/jquery.vmap.min.js"></script>
+<script src="./template/lib/jqvmap/maps/jquery.vmap.usa.js"></script>
+
+<script src="./template/js/azia.js"></script>
+<script>
+    $(function(){
+        'use strict'
+
+        $('.az-sidebar .with-sub').on('click', function(e){
+            e.preventDefault();
+            $(this).parent().toggleClass('show');
+            $(this).parent().siblings().removeClass('show');
+        })
+
+        $(document).on('click touchstart', function(e){
+            e.stopPropagation();
+
+            // closing of sidebar menu when clicking outside of it
+            if(!$(e.target).closest('.az-header-menu-icon').length) {
+                let sidebarTarg = $(e.target).closest('.az-sidebar').length;
+                if(!sidebarTarg) {
+                    $('body').removeClass('az-sidebar-show');
+                }
+            }
+        });
+
+
+        $('#azSidebarToggle').on('click', function(e){
+            e.preventDefault();
+
+            if(window.matchMedia('(min-width: 992px)').matches) {
+                $('body').toggleClass('az-sidebar-hide');
+            } else {
+                $('body').toggleClass('az-sidebar-show');
+            }
+        })
+
+        /* ----------------------------------- */
+        /* Dashboard content */
+
+        $('#compositeline').sparkline('html', {
+            lineColor: '#cecece',
+            lineWidth: 2,
+            spotColor: false,
+            minSpotColor: false,
+            maxSpotColor: false,
+            highlightSpotColor: null,
+            highlightLineColor: null,
+            fillColor: '#f9f9f9',
+            chartRangeMin: 0,
+            chartRangeMax: 10,
+            width: '100%',
+            height: 20,
+            disableTooltips: true
+        });
+
+        $('#compositeline2').sparkline('html', {
+            lineColor: '#cecece',
+            lineWidth: 2,
+            spotColor: false,
+            minSpotColor: false,
+            maxSpotColor: false,
+            highlightSpotColor: null,
+            highlightLineColor: null,
+            fillColor: '#f9f9f9',
+            chartRangeMin: 0,
+            chartRangeMax: 10,
+            width: '100%',
+            height: 20,
+            disableTooltips: true
+        });
+
+        $('#compositeline3').sparkline('html', {
+            lineColor: '#cecece',
+            lineWidth: 2,
+            spotColor: false,
+            minSpotColor: false,
+            maxSpotColor: false,
+            highlightSpotColor: null,
+            highlightLineColor: null,
+            fillColor: '#f9f9f9',
+            chartRangeMin: 0,
+            chartRangeMax: 10,
+            width: '100%',
+            height: 20,
+            disableTooltips: true
+        });
+
+        $('#compositeline4').sparkline('html', {
+            lineColor: '#cecece',
+            lineWidth: 2,
+            spotColor: false,
+            minSpotColor: false,
+            maxSpotColor: false,
+            highlightSpotColor: null,
+            highlightLineColor: null,
+            fillColor: '#f9f9f9',
+            chartRangeMin: 0,
+            chartRangeMax: 10,
+            width: '100%',
+            height: 20,
+            disableTooltips: true
+        });
+
+
+        let morrisData = [
+            { y: 'Oct 01', a: 93000, b: 70000 },
+            { y: 'Oct 05', a: 75000,  b: 55000 },
+            { y: 'Oct 10', a: 50000,  b: 40000 },
+            { y: 'Oct 15', a: 75000,  b: 65000 },
+            { y: 'Oct 20', a: 50000,  b: 40000 },
+            { y: 'Oct 25', a: 80000, b: 90000 },
+            { y: 'Oct 30', a: 75000,  b: 65000 }
+        ];
+
+        new Morris.Bar({
+            element: 'morrisBar1',
+            data: morrisData,
+            xkey: 'y',
+            ykeys: ['a', 'b'],
+            labels: ['Online', 'Offline'],
+            barColors: ['#560bd0', '#00cccc'],
+            preUnits: '$',
+            barSizeRatio: 0.55,
+            gridTextSize: 11,
+            gridTextColor: '#494c57',
+            gridTextWeight: 'bold',
+            gridLineColor: '#999',
+            gridStrokeWidth: 0.25,
+            hideHover: 'auto',
+            resize: true,
+            padding: 5
+        });
+
+        $('#vmap2').vectorMap({
+            map: 'usa_en',
+            showTooltip: true,
+            backgroundColor: '#fff',
+            color: '#60adff',
+            colors: {
+                mo: '#9fceff',
+                fl: '#60adff',
+                or: '#409cff',
+                ca: '#005cbf',
+                tx: '#005cbf',
+                wy: '#005cbf',
+                ny: '#007bff'
+            },
+            hoverColor: '#222',
+            enableZoom: false,
+            borderWidth: 1,
+            borderColor: '#fff',
+            hoverOpacity: .85
+        });
+        $('#wizard1').steps({
+            headerTag: 'h3',
+            bodyTag: 'section',
+            autoFocus: true,
+            titleTemplate: '<span class="number">#index#</span> <span class="title">#title#</span>'
+        });
+
+        $('#wizard2').steps({
+            headerTag: 'h3',
+            bodyTag: 'section',
+            autoFocus: true,
+            titleTemplate: '<span class="number">#index#</span> <span class="title">#title#</span>',
+            onStepChanging: function (event, currentIndex, newIndex) {
+                if(currentIndex < newIndex) {
+                    // Step 1 form validation
+                    if(currentIndex === 0) {
+                        let fname = $('#firstname').parsley();
+                        let lname = $('#lastname').parsley();
+
+                        if(fname.isValid() && lname.isValid()) {
+                            return true;
+                        } else {
+                            fname.validate();
+                            lname.validate();
+                        }
+                    }
+
+                    // Step 2 form validation
+                    if(currentIndex === 1) {
+                        let email = $('#email').parsley();
+                        if(email.isValid()) {
+                            return true;
+                        } else { email.validate(); }
+                    }
+                    // Always allow step back to the previous step even if the current step is not valid.
+                } else { return true; }
+            }
+        });
+
+        $('#wizard3').steps({
+            headerTag: 'h3',
+            bodyTag: 'section',
+            autoFocus: true,
+            titleTemplate: '<span class="number">#index#</span> <span class="title">#title#</span>',
+            stepsOrientation: 1
+        });
+
+    });
+</script>
+
+</body>
+</html>
